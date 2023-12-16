@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <title>flames</title>
+</head>
+<body>
+        <div class="container">
+          <form>
+            <div class="form">
+              <div class='male'>
+                <dotlottie-player src="https://lottie.host/717fcdff-7e7d-47cf-b72d-5c8e0e018662/xOfjkfpl5H.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+                <input id="maleName" type="text" placeholder="Enter the name" />
+              </div>
+              <div class='female'>
+                <dotlottie-player src="https://lottie.host/1737030c-9bce-4c47-92fa-3b439082beac/x8QdRl7E4O.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+                <input id="femaleName" type="text" placeholder="Enter the name" />
+              </div>  
+            </div>
+            <div id="error">
+              <p id="nillError">Enter the names first</p>
+              <p id="numError">Names can't contain any special characters! Enter valid names</p>
+            </div>
+            <div class="buttonDiv">
+              <button id="submit">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+                  </div>
+                </div>
+                  <span>Reveal Your Cosmic Connection!</span>
+              </button>
+            </div>
+          </form>
+        </div>
+    <div class="results">
+      <div class="heading">
+        Results here
+      </div>
+      <div id="iconsDiv">
+        <div id="loader">
+          <dotlottie-player src="https://lottie.host/13a38ea7-0ea4-48f2-9c56-8e872beb5cd5/S0FwsIFoRq.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+        </div>
+        <div id="letter">
+          <li id="f">
+            <dotlottie-player src="https://lottie.host/351ddd33-4c44-46a3-bb40-6b8550b0a34c/GyQod7eQdA.json" background="transparent" speed="1" style="width: 70px; height: 70px" direction="1" mode="normal" autoplay loop></dotlottie-player>
+          </li>
+          <li id="l">
+            <dotlottie-player src="https://lottie.host/ab9501fa-ab0a-4cef-be91-cadf9c3b3633/s1fIG7lQjw.json" background="transparent" speed="1" style="width: 70px; height: 70px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="a">
+            <dotlottie-player src="https://lottie.host/5185a0a2-243e-42af-ad73-4847ed2b6295/htXACv7jmF.json" background="transparent" speed="1" style="width: 70px; height: 70px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="m">
+            <dotlottie-player src="https://lottie.host/66b978b9-d122-493b-b005-d1c722bcaa40/Sek6l1ooUr.json" background="transparent" speed="2" style="width: 70px; height: 70px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="e">
+            <dotlottie-player src="https://lottie.host/6358e356-67a8-4c5f-b988-956c72aa6818/8VMipB0Pcz.json" background="transparent" speed="1" style="width: 75px; height: 75px" direction="1" mode="normal" loop autoplay></dotlottie-player>          </li>
+          <li id="s">
+            <dotlottie-player src="https://lottie.host/393be39c-9373-4f8b-8001-8af454ce1935/coxyLbD6Y0.json" background="transparent" speed="2" style="width: 70px; height: 70px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+        </div>
+        <div id="meaning">
+          <li id="friendship">Friendship</li>
+          <li id="love">
+            Love
+          </li>
+          <li id="attraction">Attraction</li>
+          <li id="marriage">Marriage</li>
+          <li id="enmity">
+            Enmity
+          </li>
+          <li id="sister">
+            Sister
+          </li>
+        </div>
+        <div id="icon">
+          <li id="friendshipIcon">
+            <dotlottie-player src="https://lottie.host/377b0741-3243-4854-a305-f23a6969c7d9/JJLvHvXPbw.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="loveIcon">
+            <dotlottie-player src="https://lottie.host/662e1f3b-0724-4707-8e54-8105d240247d/s0ins4SsBk.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="attractionIcon">
+            <dotlottie-player src="https://lottie.host/65a6a538-264a-4d4b-b8b4-3ea701eec5ae/v9KNgqNKtL.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="marriageIcon">
+            <dotlottie-player src="https://lottie.host/3198632c-cc86-4e62-acdb-0d76d9895a4b/5WXNnmiFUX.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+          <li id="enmityIcon">
+            <dotlottie-player src="https://lottie.host/acaf2dc2-c665-442f-b511-15488c2153e5/orpFAP9CMZ.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+
+          </li>
+          <li id="sisterIcon">
+            <dotlottie-player src="https://lottie.host/03279db1-5a16-49ed-aeb4-294c4b69ca28/Ha5kjcsYQO.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+          </li>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
